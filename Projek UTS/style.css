@@ -1,0 +1,224 @@
+body {
+  background-color: white;
+}
+.btn-login {
+  background-color: #006969;
+  color: white;
+}
+.btn-login:hover {
+  background-color: #048f8f;
+  color: white;
+}
+.con-navbar {
+  background-color: #bfbfbf;
+  height: 70px;
+  margin-left: -3px;
+}
+
+.navbar-light {
+  width: 1160px;
+}
+.btn-navbar-right {
+  margin-top: -10px !important;
+  margin-bottom: -10px !important;
+  margin-right: -35px !important;
+  height: 70px;
+  border-radius: 0;
+}
+
+.nav-link {
+  color: #005353 !important;
+}
+.nav-link:active {
+  color: #005353 !important;
+  font-weight: bold;
+}
+
+/*header*/
+header {
+  background-image: url("img/header.png");
+  margin-top: -70px;
+  padding: 170px 0 165px;
+  background-size: cover;
+  color: white;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+p {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.btn-warning {
+  background-color: #f8af23;
+  color: white;
+  font-weight: bold;
+}
+/*main*/
+.section-stats {
+  margin-top: -50px;
+}
+.stats-detail {
+  background-color: #f8d20d;
+  padding-top: 15px;
+  color: white;
+  padding-left: 30px;
+  text-align: center;
+}
+h2 {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.stats {
+  font-weight: 300;
+}
+
+/*popular*/
+.section-popular {
+  min-height: 540px;
+  margin-bottom: -230px;
+  margin-top: -50px;
+}
+.section-popular-heading {
+  margin-top: 150px;
+}
+h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 40px;
+}
+.paragrap {
+  font-family:"Poppins", sans-serif ;
+  font-size: 16px;
+}
+/*popular content*/
+.card-travel {
+  min-height: 380px;
+  padding: 15px;
+  color: white;
+  background-size: cover;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.travel-country {
+  font-size: 14px;
+  color: white;
+}
+.travel-location {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+.btn-travel-details {
+  font-weight: 600;
+  background-color: #f8af23;
+  color: white;
+}
+.btn-travel-details:hover {
+  background-color: #f8d20d;
+  color: white;
+}
+/*network*/
+.section-network {
+  margin-top: -170px;
+  padding-top: 280px;
+  padding-bottom: 50px;
+}
+.img-partner {
+  margin-top: -15px;
+  margin-left: 15px;
+  padding: 0;
+  width: 410px;
+  height: 160px;
+}
+/*testimonial*/
+.section-testimonial-heading {
+  color: #005353;
+  background-color: #007777;
+  min-height: 506px;
+}
+.row-testi {
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+.testimonial {
+font-size: 20px ;
+font-family: p;
+}
+.btn-need-help {
+  background-color: #c9c9c9;
+  color: #FAFAFA;
+  font-weight: bold;
+}
+.btn-need-help:hover{
+  background-color: #b8b8b8 ;
+  color: #FAFAFA;
+}
+.section-testimonial-content {
+  margin-top: -280px;
+  padding-bottom: 50px;
+}
+.testimonial-content {
+  min-height: 380px;
+}
+.testi {
+ color: #7D7D7D ;
+ font-size: 20px;
+ font-family: font-family: 'Poppins', sans-serif;
+}
+.card-testimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+/*Footer*/
+a {
+  color: #005353;
+}
+
+/* PAGE 2 */
+  .section-details-header {
+    min-height: 310px;
+    background-color: #007777;
+    margin-top: -70px;
+  }
+  .section-details-content {
+   margin-top: -210px;
+   min-height: 100vh; 
+  }
+.breadcrumb {
+  color: white;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.act {
+  font-weight: bold;
+}
+.details {
+  font-family: 'Assistant', sans-serif;
+}
+.card-details {
+  padding: 30px;
+  border-radius: 10px;
+}
+.description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.gallery {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.navbar-brand {
+  font-family:'Pacifico', cursive;
+  font-size: 28px;
+}
+
+/* Page 3 */
+.container-fluid {
+  margin-top: 100px;
+  border-radius: 30px;
+  padding-top: 20px;
+}

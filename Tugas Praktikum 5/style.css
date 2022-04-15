@@ -1,0 +1,29 @@
+header {
+  background-image: url("img/lane.avif");
+  margin-top: -70px;
+  padding: 170px 0 165px;
+  background-size: cover;
+  color: #000b2e;
+  min-height: 860px;
+}
+.navbar-brand {
+  font-family: "Lobster", cursive;
+  color: black;
+  font-size: 30px;
+}
+h1 {
+  font-size: 100px;
+  font-family: "Poppins", sans-serif;
+}
+.btn-warning {
+  margin-top: 40px;
+  font-family: "Assistant", sans-serif;
+  font-weight: bold;
+}
+.caption {
+  margin-top: 40px;
+}
+footer {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}

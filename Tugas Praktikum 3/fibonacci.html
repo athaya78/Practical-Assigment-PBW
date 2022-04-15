@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fibonacci</title>
+</head>
+<body>
+<script>
+    var limit = prompt("PROGRAM DERET FIBONACCI \n Masukkan jumlah deret bilangan fibonacci: ");
+    let a = 1;
+    let b = 1;
+    let c = 1;
+    function nextAngka(){
+    for (let i = 0; i < limit; i++) {
+        console.log(b + " ");
+        c = a + b;
+        a = b;
+        b = c;  
+
+        }
+    }
+    alert(nextAngka());
+</script>
+    
+</body>
+</html>

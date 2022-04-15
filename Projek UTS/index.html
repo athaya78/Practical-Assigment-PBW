@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700&family=Fredoka:wght@300;400;500&family=Pacifico&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300;1,400&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <!-- Xzoom CSS -->
+    <link rel="stylesheet" href="xzoom/xzoom.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Tour and Travel</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="d-flex justify-content-center">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light py-0">
+        <div class="container con-navbar">
+            <img src="img/travelyu.png" alt="" width="68" height="68" />
+            <a class="navbar-brand" href="#" style="font-family: 'Pacifico', cursive;">TravelYuk!</a>
+          <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto" style="color: #015757">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="details.html">Packages Tour</a>
+              </li>
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Contact Us </a>
+                  <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Tour</a></li>
+                    <li><a class="dropdown-item" href="#">Backpack</a></li>
+                    <li><a class="dropdown-item" href="#">Travelling</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+              </ul>
+
+              <!-- Mobile Button -->
+              <form action="" class="form-inline d-sm-block d-md-none">
+                <button class="btn btn-login my-2 my-sm-0">Masuk</button>
+              </form>
+              <!-- End of mobile button -->
+              <!-- Desktop button -->
+              <form action="" class="form-inline my-lg-0 d-none d-md-block">
+                <button class="btn btn-login btn-navbar-right my-sm-0 px-4">Masuk</button>
+              </form>
+              <!-- end of desktop button -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- End of Navbar -->
+    <!-- Header -->
+    <header class="text-center">
+      <h1>
+        Explore the beautiful world <br />
+        As easy one click
+      </h1>
+      <p>
+        Let’s make your journey and<br />
+        see how beautiful places!
+      </p>
+      <a href="#" class="btn btn-warning" style="color: white">Get Started</a>
+    </header>
+    <!-- End of header -->
+    <!-- Main -->
+    <main>
+      <div class="container">
+        <section class="section-stats row justify-content-center">
+          <div class="col-3 col-md-2 stats-detail">
+            <h2>20K</h2>
+            <p class="stats">Members</p>
+          </div>
+          <div class="col-3 col-md-2 stats-detail">
+            <h2>12</h2>
+            <p class="stats">Countries</p>
+          </div>
+          <div class="col-3 col-md-2 stats-detail">
+            <h2>3k</h2>
+            <p class="stats">Hotel</p>
+          </div>
+          <div class="col-3 col-md-2 stats-detail">
+            <h2>72</h2>
+            <p class="stats">Partners</p>
+          </div>
+        </section>
+      </div>
+<!-- Info popular content -->
+      <section class="section-popular" id="popular">
+        <div class="container">
+          <div class="row">
+            <div class="col text-center section-popular-heading">
+              <h3>Wisata Popular</h3>
+              <p class="paragrap">
+                Something that you never try <br />
+                in this world
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+<!-- End of Info popular -->
+<!-- Popular product -->
+      <section class="section-popular-content id="popularContent">
+      <div class="container">
+        <div class="section-popular-travel row justify-content-center">
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-travel text-center d-flex flex-column" style="background-image: url('img/dest1.png');">
+               <div class="travel-country">CANADA</div>
+               <div class="travel-location">BROHM LAKE FOREST</div>
+               <div class="travel-button mt-auto">
+                 <a href="#" class="btn btn-travel-details">View Details</a>
+               </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-travel text-center d-flex flex-column" style="background-image: url('img/dest3.png');">
+               <div class="travel-country">MALDIVES</div>
+               <div class="travel-location">MEERU ISLAND</div>
+               <div class="travel-button mt-auto">
+                 <a href="#" class="btn btn-travel-details">View Details</a>
+               </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-travel text-center d-flex flex-column" style="background-image: url('img/dest2.png');">
+               <div class="travel-country">JAPAN</div>
+               <div class="travel-location">FUJI MOUNTAIN</div>
+               <div class="travel-button mt-auto">
+                 <a href="#" class="btn btn-travel-details">View Details</a>
+               </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <div class="card-travel text-center d-flex flex-column" style="background-image: url('img/dest4.png');">
+               <div class="travel-country">NEW ZEALAND</div>
+               <div class="travel-location">UTUPOTO FALLS</div>
+               <div class="travel-button mt-auto">
+                 <a href="#" class="btn btn-travel-details">View Details</a>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <!-- End of popular product -->
+     <div class="section section-network">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3 style="color: #006d6d;">Our Networks</h3>
+            <p class="paragrap">Companies are trusted us <br>
+               More than just a trip</p>
+          </div>
+          <div class="col-md-8 justify-content-center">
+            <img src="img/partner.png" alt="Logo Our Partner" class="img-partner left-content-centers">
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="testimonial section-testimonial-heading" id="testimonialHeading">
+      <div class="container">
+        <div class="row row-testi">
+          <div class="col text-center">
+            <h3 style="font-weight: 700;" >They Are Loving Us</h3>
+            <p class="paragrap">Time were given them the best <br>
+            expeience moment</p>
+          </div>
+        </div>
+      </div> 
+    </section>
+    <div class="section section-testimonial-content">
+      <div class="container">
+      <div class="section-popular-travel row justify-content-center"> 
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="card card-testimonial text-center">
+          <div class="testimonial-content">
+            <img src="img/harry.png" alt="User" class="mb-4 rounded-circle">
+              <h4 class="mb-4">Happy Potter</h4>
+              <p class="testi">" I think it's an amazing experience to see the beauty of nature "
+              </p>
+          </div>
+          <p class="testimonial mt-2 border-top">Trip to Indonesia
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="card card-testimonial text-center">
+          <div class="testimonial-content">
+            <img src="img/hermione.png" alt="User" class="mb-4 rounded-circle">
+              <h4 class="mb-4">Hermione Granger</h4>
+              <p class="testi">" It was glorious and I could not to
+                say wohoo for every single moment "
+              </p>
+          </div>
+          <p class="testimonial mt-2 border-top">Trip to Canada
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-4">
+        <div class="card card-testimonial text-center">
+          <div class="testimonial-content">
+            <img src="img/ron.png" alt="User" class="mb-4 rounded-circle">
+              <h4 class="mb-4">Ron weasley</h4>
+              <p class="testi">" So good to be able to travelling the world with good service "
+              </p>
+          </div class="hr">
+          <p class="testimonial mt-2 border-top">Trip to Japan
+          </p>
+        </div>
+      </div>
+      </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <a href="" class="btn btn-need-help px-4 mt-4 mx-1"> I need help</a>
+          <a href="" class="btn btn-warning px-4 mt-4 mx-1" style="color: white;"> Get Started</a>
+        </div>
+      </div>
+    </div>
+    </main>
+    <!-- End of main -->
+    <!-- Footer -->
+    <footer class="section-footer mt-5 bb-4 border-top">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-3">
+                <h5>FEATURES</h5>
+                <ul class="list-unstyled">
+                  <li><a href="">Review</a></li>
+                  <li><a href="">Community</a></li>
+                  <li><a href="">Social media kit</a></li>
+                  <li><a href="">Affiliate</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>ACCOUNT</h5>
+                <ul class="list-unstyled">
+                  <li><a href="">Refund</a></li>
+                  <li><a href="">Security</a></li>
+                  <li><a href="">Rewards</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>COMPANY</h5>
+                <ul class="list-unstyled">
+                  <li><a href="">Career</a></li>
+                  <li><a href="">Help Center</a></li>
+                  <li><a href="">Media</a></li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>GET CONNECTED</h5>
+                <ul class="list-unstyled">
+                  <li><a href="">Bekasi Timur</a></li>
+                  <li><a href="">Indonesia</a></li>
+                  <li><a href="">0822-1234-5678</a></li>
+                  <li><a href="">support@gmail.co.id</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid" style="background-color: #dddddd;">
+        <div class="row border-top justify-content-center align-center py-3">
+          <div class="col-auto text-gray-500 font-weight-light">
+            © 2022 Copyright Hanna  - All right reserved - Made in Bekasi with ♡ 
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="xzoom/xzoom.min.js"></script>
+  </body>
+</html>
