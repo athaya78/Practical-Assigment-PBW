@@ -28,7 +28,7 @@ class Book{
     }
 }
 
-$book = new Book('BB01', 'Onepiece', 130);
+$book = new Book('BB09', 'HarryPotter', 140);
 echo $book->getCodeQty();
 
 ?>
