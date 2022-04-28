@@ -1,10 +1,12 @@
 <?php
 include "../database/connection.php";
 
-$nama = $_POST['nama']; 
-$jurusan = $_POST['jurusan'];
+$npm = $_GET['npm']; 
+$nama = $_GET['nama']; 
+$jurusan = $_GET['jurusan'];
+$alamat = $_GET['alamat']; 
 
-$query = mysqli_query($conn, "INSERT INTO mahasiswa SET nama = '$nama', jurusan = '$jurusan'");
+$query = mysqli_query($conn, "INSERT INTO mahasiswa SET npm = '$npm', nama = '$nama', jurusan = '$jurusan', alamat = '$alamat'");
 
 if ($query) {
 $message = "Data berhasil ditambahkan!";
